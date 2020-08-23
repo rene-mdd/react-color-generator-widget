@@ -1,0 +1,72 @@
+.App {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+  
+}
+
+.buttonDiv {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+}
+
+.App div:nth-child(0){
+  background-color: rgb(251, 225, 251);
+  height: 100%;
+}
+
+.boxColor {
+
+ width: 100%;
+ height: 100%;
+ border-radius: 10px 10px 0 0;
+ border: 1px solid black;
+}
+
+.main {
+  width: 100px;
+  height: 150px;
+  background-color: white;
+  margin: 40px 10px;
+  border-radius: 10px 10px 0 0;
+  
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(122, 185, 228);
+  border-radius: 0 0 5px 5px;
+}
+
+* {
+  font-size: 105%;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  height: 80%;
+  width: 100%;
+  overflow: auto;
+}
+
+.create-button {
+  border-radius: 5px;
+  padding: 15px 30px;
+  box-shadow: 3px 3px 5px 0px rgb(49, 49, 49);
+  cursor: pointer;
+  outline: none;
+}
+
+.remover {
+  border-radius: 0 0 5px 5px;
+}
+
